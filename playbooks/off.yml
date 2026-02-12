@@ -1,0 +1,17 @@
+---
+- name: Выключение компьютеров
+  hosts: working_hosts
+  become: yes
+  gather_facts: false  # Ускоряет выполнение
+
+  tasks:
+    - name: Выключить компьютер
+      ansible.builtin.command: shutdown -h now
+      async: 1
+      poll: 0
+      ignore_errors: yes  # Игнорировать ошибки при потере связи
+
+    - name: Сообщение о выключении
+      ansible.builtin.debug:
+        msg: "Компьютер {{ inventory_hostname }} выключается..."
+      delegate_to: localhost

@@ -1,0 +1,8 @@
+---
+- name: Простое обновление систем
+  hosts: working_hosts
+  become: yes
+
+  tasks:
+    - name: Выполнить dnf update -y
+      ansible.builtin.command: dnf update -y

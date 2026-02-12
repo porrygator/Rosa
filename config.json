@@ -1,0 +1,13 @@
+{
+ 	"mysql": {
+ 		"host": "127.0.0.1:3306",
+ 		"user": "admin",
+ 		"pass": "qwe123!E!E",
+ 		"name": "rosa_db"
+ 	},
+ 	"dialect": "mysql",
+ 	"tmp_path": "/home/admin/ansible_rosa/playbooks",
+ 	"cookie_hash": "oDQjHe1La0hduEnS1GtaroNf97a0Q4PSlfEKI6JdOjw=",
+ 	"cookie_encryption": "tQy/7t8JAbT+HQ8iikGNQxlxOyVx8Uc4vtwqTGcFD68=",
+ 	"access_key_encryption": "ghBXpM4Sq/hnzGgziMHzoYOOxjq/GpPo6gnUt8a5rJQ="
+ }

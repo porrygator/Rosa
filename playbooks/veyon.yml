@@ -1,0 +1,26 @@
+# ~/ansible_rosa/playbooks/veyon_simple.yml
+---
+- name: Install Veyon (simple)
+  hosts: working_hosts
+  become: yes
+
+  tasks:
+    - name: Add Veyon repository
+      yum_repository:
+        name: veyon
+        description: "Veyon Repository"
+        baseurl: https://download.veyon.io/rpm/stable/$basearch
+        gpgcheck: yes
+        gpgkey: https://download.veyon.io/keys/veyon.asc
+        enabled: yes
+
+    - name: Install Veyon
+      package:
+        name: veyon
+        state: present
+
+    - name: Start Veyon service
+      service:
+        name: veyon.service
+        state: started
+        enabled: yes

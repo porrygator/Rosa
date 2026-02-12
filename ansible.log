@@ -1,0 +1,1315 @@
+2026-01-28 14:06:46,397 p=247790 u=admin n=ansible | [WARNING]: Unable to parse /home/admin/ansible_rosa/inventory/production.yml as an inventory source
+
+2026-01-28 14:06:46,397 p=247790 u=admin n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-01-28 14:06:46,400 p=247790 u=admin n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-01-28 14:06:46,501 p=247790 u=admin n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/home/admin/ansible_rosa/playbooks/fix_ssh_config.yml': line 3, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# playbooks/fix_ssh_config.yml
+---
+^ here
+
+2026-01-28 14:13:25,345 p=247856 u=admin n=ansible | Starting galaxy collection install process
+2026-01-28 14:13:25,463 p=247856 u=admin n=ansible | Process install dependency map
+2026-01-28 14:13:25,464 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:25,566 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:25,667 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:25,767 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:25,869 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:25,969 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:26,071 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:26,171 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:26,273 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:26,374 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:26,475 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:26,576 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:26,676 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:26,777 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:26,877 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:26,978 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:27,079 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:27,180 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:27,281 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:27,382 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:27,483 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:27,583 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:27,685 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:27,787 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:27,888 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:27,988 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:28,089 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:28,190 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:28,291 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:28,392 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:28,492 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:28,594 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:28,695 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:28,796 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:28,897 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:28,999 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:29,099 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:29,201 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:29,301 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:29,402 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:29,502 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:29,603 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:29,703 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:29,805 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:29,905 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:30,006 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:30,107 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:30,209 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:30,309 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:30,411 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:30,512 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:30,612 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:30,713 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:30,814 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:30,914 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:31,015 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:31,116 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:31,216 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:31,317 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:31,417 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:31,518 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:31,618 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:31,719 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:31,820 p=247856 u=admin n=ansible | Starting collection install process
+2026-01-28 14:13:31,820 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:31,824 p=247856 u=admin n=ansible | Downloading https://galaxy.ansible.com/api/v3/plugin/ansible/content/published/collections/artifacts/freeipa-ansible_freeipa-1.16.0.tar.gz to /home/admin/.ansible/tmp/ansible-local-2478569w81_nt1/tmpoq5nafw5/freeipa-ansible_freeipa-1.16.0-c7fv7xrm
+2026-01-28 14:13:31,920 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:32,021 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:32,122 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:32,223 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:32,325 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:32,426 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:32,527 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:32,627 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:32,729 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:32,830 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:32,932 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:33,033 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:33,134 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:33,235 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:33,335 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:33,437 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:33,537 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:33,639 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:33,741 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:33,842 p=247856 u=admin n=ansible | |
+2026-01-28 14:13:33,943 p=247856 u=admin n=ansible | /
+2026-01-28 14:13:34,043 p=247856 u=admin n=ansible | -
+2026-01-28 14:13:34,144 p=247856 u=admin n=ansible | \
+2026-01-28 14:13:34,245 p=247856 u=admin n=ansible | ERROR! Failed to download collection tar from 'default' due to the following unforeseen error: <urlopen error [SSL] record layer failure (_ssl.c:1016)>. <urlopen error [SSL] record layer failure (_ssl.c:1016)>
+2026-01-28 14:58:44,326 p=248925 u=admin n=ansible | [WARNING]:  * Failed to parse /home/admin/ansible_rosa/inventory/freeipa_simple.py with script plugin: problem running /home/admin/ansible_rosa/inventory/freeipa_simple.py --list ([Errno 13] Отказано в доступе:
+'/home/admin/ansible_rosa/inventory/freeipa_simple.py')
+
+2026-01-28 14:58:44,326 p=248925 u=admin n=ansible | [WARNING]:  * Failed to parse /home/admin/ansible_rosa/inventory/freeipa_simple.py with ini plugin: /home/admin/ansible_rosa/inventory/freeipa_simple.py:4: Expected key=value host variable assignment, got: json
+
+2026-01-28 14:58:44,326 p=248925 u=admin n=ansible | [WARNING]: Unable to parse /home/admin/ansible_rosa/inventory/freeipa_simple.py as an inventory source
+
+2026-01-28 14:58:44,326 p=248925 u=admin n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-01-28 14:58:44,329 p=248925 u=admin n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-01-28 15:01:55,180 p=249060 u=admin n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-01-28 15:06:09,945 p=249263 u=admin n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-01-28 15:06:37,949 p=249302 u=admin n=ansible |  [ERROR]: WARNING: No hosts found, using test data
+
+2026-01-28 15:06:39,153 p=249302 u=admin n=ansible | s1210-2-r-05.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:06:39,162 p=249302 u=admin n=ansible | s1210-2-r-03.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:06:39,193 p=249302 u=admin n=ansible | s1210-2-r-02.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:06:39,230 p=249302 u=admin n=ansible | rosa.s1210.lan | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection closed by UNKNOWN port 65535",
+    "unreachable": true
+}
+2026-01-28 15:06:41,140 p=249302 u=admin n=ansible | s1210-2-r-04.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:06:48,218 p=249302 u=admin n=ansible | s1210-2-r-01.s1210.lan | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection timed out during banner exchange\r\nConnection to UNKNOWN port 65535 timed out",
+    "unreachable": true
+}
+2026-01-28 15:09:13,882 p=249500 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:09:13,893 p=249500 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:09:14,512 p=249500 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:09:14,519 p=249500 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:09:14,622 p=249500 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:09:16,557 p=249500 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:09:16,558 p=249500 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:09:16,558 p=249500 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:09:16,558 p=249500 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:09:16,558 p=249500 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:09:16,558 p=249500 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:38,976 p=249648 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:12:38,987 p=249648 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:12:39,509 p=249648 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:39,516 p=249648 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:39,525 p=249648 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:41,493 p=249648 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:41,494 p=249648 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:12:41,494 p=249648 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:41,494 p=249648 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:41,494 p=249648 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:41,495 p=249648 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:51,954 p=249762 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:12:51,964 p=249762 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:12:52,575 p=249762 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:54,464 p=249762 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:54,543 p=249762 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:56,504 p=249762 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:12:56,504 p=249762 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:12:56,505 p=249762 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:56,505 p=249762 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:56,505 p=249762 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:12:56,505 p=249762 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:13,463 p=249904 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:13:13,474 p=249904 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:13:14,046 p=249904 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:14,049 p=249904 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:14,050 p=249904 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:14,052 p=249904 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:14,052 p=249904 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:13:14,053 p=249904 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:14,053 p=249904 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:14,053 p=249904 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:14,053 p=249904 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:22,608 p=250046 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:13:22,618 p=250046 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:13:23,191 p=250046 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:23,192 p=250046 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:23,198 p=250046 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:25,164 p=250046 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:13:25,165 p=250046 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:13:25,165 p=250046 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:25,165 p=250046 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:25,165 p=250046 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:13:25,165 p=250046 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:15:00,322 p=250197 u=admin n=ansible | ERROR! the playbook: playbooks/fix_sudo_freeipa.yml could not be found
+2026-01-28 15:15:15,739 p=250212 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:15:15,749 p=250212 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:15:16,280 p=250212 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:15:16,308 p=250212 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:15:16,323 p=250212 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:15:18,310 p=250212 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:15:18,311 p=250212 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:15:18,311 p=250212 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:15:18,312 p=250212 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:15:18,312 p=250212 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:15:18,312 p=250212 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:21:34,751 p=250416 u=admin n=ansible | s1210-2-r-05.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:21:34,764 p=250416 u=admin n=ansible | s1210-2-r-02.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:21:34,799 p=250416 u=admin n=ansible | s1210-2-r-04.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:21:36,734 p=250416 u=admin n=ansible | s1210-2-r-03.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:29:13,966 p=250782 u=admin n=ansible | s1210-2-r-02.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:29:13,970 p=250782 u=admin n=ansible | s1210-2-r-05.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:29:13,992 p=250782 u=admin n=ansible | s1210-2-r-03.s1210.lan | FAILED! => {
+    "msg": "Missing sudo password"
+}
+2026-01-28 15:29:14,221 p=250782 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:29:14,221 p=250782 u=admin n=ansible | s1210-2-r-04.s1210.lan | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.8"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-01-28 15:29:47,062 p=250848 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:29:47,074 p=250848 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:29:49,758 p=250848 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:29:50,398 p=250848 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:29:50,398 p=250848 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 15:29:50,415 p=250848 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:29:50,415 p=250848 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 15:29:52,359 p=250848 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:29:52,359 p=250848 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 15:29:52,361 p=250848 u=admin n=ansible | TASK [Test configuration] **********************************************************************************************************************************************************************************************************
+2026-01-28 15:29:52,710 p=250848 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 15:29:52,710 p=250848 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 15:29:52,719 p=250848 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 15:29:52,720 p=250848 u=admin n=ansible | TASK [Show success message] ********************************************************************************************************************************************************************************************************
+2026-01-28 15:29:52,740 p=250848 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan] => 
+  msg: Host s1210-2-r-02.s1210.lan configured successfully
+2026-01-28 15:29:52,756 p=250848 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan] => 
+  msg: Host s1210-2-r-03.s1210.lan configured successfully
+2026-01-28 15:29:52,762 p=250848 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan] => 
+  msg: Host s1210-2-r-04.s1210.lan configured successfully
+2026-01-28 15:29:52,769 p=250848 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:29:52,769 p=250848 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:29:52,769 p=250848 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:29:52,770 p=250848 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:29:52,770 p=250848 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:31:52,547 p=251107 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:31:52,558 p=251107 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:31:53,755 p=251107 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:31:53,755 p=251107 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-28 15:31:53,835 p=251107 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:31:53,835 p=251107 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-28 15:31:55,073 p=251107 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-01-28 15:31:55,719 p=251107 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:31:55,719 p=251107 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-28 15:31:55,720 p=251107 u=admin n=ansible | TASK [Test configuration] **********************************************************************************************************************************************************************************************************
+2026-01-28 15:31:56,165 p=251107 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 15:31:56,209 p=251107 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 15:31:58,132 p=251107 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 15:31:58,134 p=251107 u=admin n=ansible | TASK [Show success message] ********************************************************************************************************************************************************************************************************
+2026-01-28 15:31:58,159 p=251107 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan] => 
+  msg: Host s1210-2-r-02.s1210.lan configured successfully
+2026-01-28 15:31:58,182 p=251107 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan] => 
+  msg: Host s1210-2-r-03.s1210.lan configured successfully
+2026-01-28 15:31:58,199 p=251107 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan] => 
+  msg: Host s1210-2-r-04.s1210.lan configured successfully
+2026-01-28 15:31:58,212 p=251107 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:31:58,212 p=251107 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:31:58,212 p=251107 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:31:58,212 p=251107 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:31:58,212 p=251107 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:41:52,782 p=251571 u=admin n=ansible | PLAY [Setup working hosts] *********************************************************************************************************************************************************************************************************
+2026-01-28 15:41:52,793 p=251571 u=admin n=ansible | TASK [Setup sudo without password] *************************************************************************************************************************************************************************************************
+2026-01-28 15:41:53,974 p=251571 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:41:53,974 p=251571 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 15:41:54,069 p=251571 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:41:54,069 p=251571 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 15:41:54,189 p=251571 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:41:54,189 p=251571 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-01-28 15:41:56,035 p=251571 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 15:41:56,035 p=251571 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 15:41:56,037 p=251571 u=admin n=ansible | TASK [Test configuration] **********************************************************************************************************************************************************************************************************
+2026-01-28 15:41:56,392 p=251571 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-01-28 15:41:56,409 p=251571 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 15:41:56,444 p=251571 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 15:41:56,454 p=251571 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 15:41:56,459 p=251571 u=admin n=ansible | TASK [Show success message] ********************************************************************************************************************************************************************************************************
+2026-01-28 15:41:56,542 p=251571 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan] => 
+  msg: Host s1210-2-r-02.s1210.lan configured successfully
+2026-01-28 15:41:56,544 p=251571 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan] => 
+  msg: Host s1210-2-r-03.s1210.lan configured successfully
+2026-01-28 15:41:56,552 p=251571 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan] => 
+  msg: Host s1210-2-r-04.s1210.lan configured successfully
+2026-01-28 15:41:56,558 p=251571 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan] => 
+  msg: Host s1210-2-r-05.s1210.lan configured successfully
+2026-01-28 15:41:56,576 p=251571 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-28 15:41:56,576 p=251571 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:41:56,576 p=251571 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:41:56,576 p=251571 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 15:41:56,576 p=251571 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 16:05:52,183 p=252032 u=admin n=ansible | ERROR! Empty playbook, nothing to do: /home/admin/ansible_rosa/playbooks/base_configuration.yml
+2026-01-28 16:06:54,997 p=252087 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: new_hosts
+
+2026-01-28 16:06:54,997 p=252087 u=admin n=ansible | PLAY [Base configuration for new hosts] **********************************************************************
+2026-01-28 16:06:54,998 p=252087 u=admin n=ansible | skipping: no hosts matched
+2026-01-28 16:06:54,998 p=252087 u=admin n=ansible | PLAY RECAP ***************************************************************************************************
+2026-01-28 16:13:17,830 p=252219 u=admin n=ansible | ERROR! Could not find git executable to extract the collection from the Git repository `https://github.com/guillod/computer_labs`.
+2026-01-28 16:15:34,188 p=256396 u=admin n=ansible |  [ERROR]: User interrupted execution
+
+2026-01-28 16:15:53,797 p=310577 u=admin n=ansible | ERROR! Failed to clone a Git repository from `https://github.com/guillod/computer_labs`.
+2026-01-28 16:19:07,624 p=312551 u=admin n=ansible |  [ERROR]: User interrupted execution
+
+2026-01-28 16:32:43,326 p=312756 u=admin n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/home/admin/ansible_rosa/playbooks/veyon.yml': line 2, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+yaml
+---
+^ here
+
+2026-01-28 16:34:46,270 p=312798 u=admin n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/home/admin/ansible_rosa/playbooks/veyon.yml': line 3, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# ~/ansible_rosa/playbooks/veyon_simple.yml
+---
+^ here
+
+2026-01-28 16:36:12,692 p=312821 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: a-r
+
+2026-01-28 16:36:12,693 p=312821 u=admin n=ansible | PLAY [Install Veyon] ****************************************************************************************************
+2026-01-28 16:36:12,693 p=312821 u=admin n=ansible | skipping: no hosts matched
+2026-01-28 16:36:12,693 p=312821 u=admin n=ansible | PLAY RECAP **************************************************************************************************************
+2026-01-28 16:38:35,684 p=312902 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: managed_hosts
+
+2026-01-28 16:38:35,684 p=312902 u=admin n=ansible | PLAY [Install Veyon] ****************************************************************************************************
+2026-01-28 16:38:35,684 p=312902 u=admin n=ansible | skipping: no hosts matched
+2026-01-28 16:38:35,684 p=312902 u=admin n=ansible | PLAY RECAP **************************************************************************************************************
+2026-01-28 16:39:48,823 p=312960 u=admin n=ansible | PLAY [Install Veyon] ****************************************************************************************************
+2026-01-28 16:39:48,829 p=312960 u=admin n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2026-01-28 16:39:49,172 p=312960 u=admin n=ansible | fatal: [21210-2-r-01.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: Connection closed by UNKNOWN port 65535'
+  unreachable: true
+2026-01-28 16:39:51,964 p=312960 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:39:51,964 p=312960 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:39:52,031 p=312960 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:39:52,032 p=312960 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:39:52,087 p=312960 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:39:52,087 p=312960 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:39:52,100 p=312960 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:39:52,100 p=312960 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:39:52,156 p=312960 u=admin n=ansible | TASK [Add Veyon repository (если нужно для ROSA Linux)] *****************************************************************
+2026-01-28 16:39:52,204 p=312960 u=admin n=ansible | skipping: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:39:52,258 p=312960 u=admin n=ansible | skipping: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:39:52,261 p=312960 u=admin n=ansible | skipping: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:39:52,269 p=312960 u=admin n=ansible | skipping: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:39:52,289 p=312960 u=admin n=ansible | TASK [Install Veyon packages] *******************************************************************************************
+2026-01-28 16:39:53,617 p=312960 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:39:53,625 p=312960 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:39:53,636 p=312960 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:39:53,659 p=312960 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:39:53,660 p=312960 u=admin n=ansible | PLAY RECAP **************************************************************************************************************
+2026-01-28 16:39:53,660 p=312960 u=admin n=ansible | 21210-2-r-01.s1210.lan     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-28 16:39:53,660 p=312960 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:39:53,660 p=312960 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:39:53,660 p=312960 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:39:53,660 p=312960 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:41:54,578 p=313130 u=admin n=ansible | PLAY [Install Veyon] ****************************************************************************************************
+2026-01-28 16:41:54,584 p=313130 u=admin n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2026-01-28 16:41:57,107 p=313130 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:41:57,107 p=313130 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:41:57,121 p=313130 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:41:57,121 p=313130 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:41:57,147 p=313130 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:41:57,147 p=313130 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:41:57,173 p=313130 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:41:57,173 p=313130 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:41:57,679 p=313130 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:41:57,679 p=313130 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-28 16:41:57,731 p=313130 u=admin n=ansible | TASK [Add Veyon repository (если нужно для ROSA Linux)] *****************************************************************
+2026-01-28 16:41:57,800 p=313130 u=admin n=ansible | skipping: [s1210-2-r-01.s1210.lan]
+2026-01-28 16:41:57,832 p=313130 u=admin n=ansible | skipping: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:41:57,853 p=313130 u=admin n=ansible | skipping: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:41:57,862 p=313130 u=admin n=ansible | skipping: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:41:57,863 p=313130 u=admin n=ansible | skipping: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:41:57,879 p=313130 u=admin n=ansible | TASK [Install Veyon packages] *******************************************************************************************
+2026-01-28 16:41:59,289 p=313130 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:41:59,299 p=313130 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:41:59,300 p=313130 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:41:59,304 p=313130 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:42:17,796 p=313130 u=admin n=ansible | fatal: [s1210-2-r-01.s1210.lan]: FAILED! => changed=false 
+  msg: |-
+    'urpmi veyon' failed: Error: Unable to find a match: veyon-plugin-webservice veyon-plugin-lightsystem
+2026-01-28 16:42:17,799 p=313130 u=admin n=ansible | PLAY RECAP **************************************************************************************************************
+2026-01-28 16:42:17,800 p=313130 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:42:17,800 p=313130 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:42:17,800 p=313130 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:42:17,801 p=313130 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:42:17,801 p=313130 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2026-01-28 16:45:28,041 p=313295 u=admin n=ansible | PLAY [Install Veyon (simple)] *******************************************************************************************
+2026-01-28 16:45:28,046 p=313295 u=admin n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2026-01-28 16:45:30,662 p=313295 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:45:30,662 p=313295 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-28 16:45:30,693 p=313295 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:45:30,693 p=313295 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:45:30,695 p=313295 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:45:30,695 p=313295 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:45:30,753 p=313295 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:45:30,753 p=313295 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:45:32,585 p=313295 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-28 16:45:32,585 p=313295 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:45:32,637 p=313295 u=admin n=ansible | TASK [Add Veyon repository] *********************************************************************************************
+2026-01-28 16:45:33,012 p=313295 u=admin n=ansible | changed: [s1210-2-r-01.s1210.lan]
+2026-01-28 16:45:33,032 p=313295 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:45:33,037 p=313295 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:45:35,068 p=313295 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:45:35,079 p=313295 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:45:35,085 p=313295 u=admin n=ansible | TASK [Install Veyon] ****************************************************************************************************
+2026-01-28 16:46:18,626 p=313295 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-28 16:46:18,989 p=313295 u=admin n=ansible | changed: [s1210-2-r-01.s1210.lan]
+2026-01-28 16:46:19,039 p=313295 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-28 16:46:19,139 p=313295 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-28 16:46:19,171 p=313295 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-01-28 16:46:19,178 p=313295 u=admin n=ansible | TASK [Start Veyon service] **********************************************************************************************
+2026-01-28 16:46:19,910 p=313295 u=admin n=ansible | fatal: [s1210-2-r-01.s1210.lan]: FAILED! => changed=false 
+  msg: 'Could not find the requested service veyon-service: host'
+2026-01-28 16:46:19,941 p=313295 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => changed=false 
+  msg: 'Could not find the requested service veyon-service: host'
+2026-01-28 16:46:19,966 p=313295 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => changed=false 
+  msg: 'Could not find the requested service veyon-service: host'
+2026-01-28 16:46:19,973 p=313295 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => changed=false 
+  msg: 'Could not find the requested service veyon-service: host'
+2026-01-28 16:46:19,994 p=313295 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => changed=false 
+  msg: 'Could not find the requested service veyon-service: host'
+2026-01-28 16:46:20,000 p=313295 u=admin n=ansible | PLAY RECAP **************************************************************************************************************
+2026-01-28 16:46:20,001 p=313295 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 16:46:20,001 p=313295 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 16:46:20,001 p=313295 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 16:46:20,003 p=313295 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-28 16:46:20,003 p=313295 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-01-29 09:17:58,484 p=316397 u=admin n=ansible | PLAY [Install Veyon (simple)] *******************************************************************************************
+2026-01-29 09:17:58,490 p=316397 u=admin n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2026-01-29 09:18:01,552 p=316397 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 09:18:01,552 p=316397 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-29 09:18:01,561 p=316397 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 09:18:01,562 p=316397 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-29 09:18:01,718 p=316397 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 09:18:01,719 p=316397 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-29 09:18:01,748 p=316397 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 09:18:01,749 p=316397 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-29 09:18:01,897 p=316397 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at
+/usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 09:18:01,897 p=316397 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-29 09:18:01,962 p=316397 u=admin n=ansible | TASK [Add Veyon repository] *********************************************************************************************
+2026-01-29 09:18:02,345 p=316397 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-29 09:18:02,346 p=316397 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-29 09:18:02,351 p=316397 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-29 09:18:02,351 p=316397 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-29 09:18:02,355 p=316397 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-29 09:18:02,361 p=316397 u=admin n=ansible | TASK [Install Veyon] ****************************************************************************************************
+2026-01-29 09:18:02,734 p=316397 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-29 09:18:02,758 p=316397 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-29 09:18:02,759 p=316397 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-29 09:18:02,764 p=316397 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-29 09:18:04,785 p=316397 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-29 09:18:04,790 p=316397 u=admin n=ansible | TASK [Start Veyon service] **********************************************************************************************
+2026-01-29 09:18:05,574 p=316397 u=admin n=ansible | changed: [s1210-2-r-01.s1210.lan]
+2026-01-29 09:18:05,647 p=316397 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-01-29 09:18:05,662 p=316397 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-01-29 09:18:07,658 p=316397 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-01-29 09:18:07,661 p=316397 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-01-29 09:18:07,753 p=316397 u=admin n=ansible | PLAY RECAP **************************************************************************************************************
+2026-01-29 09:18:07,753 p=316397 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 09:18:07,754 p=316397 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 09:18:07,754 p=316397 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 09:18:07,754 p=316397 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 09:18:07,754 p=316397 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 10:15:17,270 p=317375 u=admin n=ansible | [WARNING]: Platform linux on host macbook.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8,
+but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 10:15:17,271 p=317375 u=admin n=ansible | macbook.s1210.lan | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.8"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-01-29 10:17:30,486 p=317446 u=admin n=ansible | [WARNING]: Platform linux on host macbook.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8,
+but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-29 10:17:30,487 p=317446 u=admin n=ansible | macbook.s1210.lan | CHANGED | rc=0 >>
+macbook.s1210.lan
+Thu Jan 29 10:17:30 MSK 2026
+
+2026-01-29 12:59:59,506 p=4130 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-29 12:59:59,516 p=4130 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-29 13:00:01,130 p=4130 u=admin n=ansible | fatal: [macbook.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@macbook.s1210.lan: Permission denied (publickey,gssapi-with-mic,keyboard-interactive).'
+  unreachable: true
+2026-01-29 13:00:01,131 p=4130 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-29 13:00:01,131 p=4130 u=admin n=ansible | macbook.s1210.lan          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 13:06:57,651 p=4184 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-29 13:06:57,656 p=4184 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-29 13:06:58,676 p=4184 u=admin n=ansible | fatal: [macbook.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@macbook.s1210.lan: Permission denied (publickey,gssapi-with-mic,keyboard-interactive).'
+  unreachable: true
+2026-01-29 13:06:58,677 p=4184 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-29 13:06:58,677 p=4184 u=admin n=ansible | macbook.s1210.lan          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 13:14:25,139 p=4264 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-29 13:14:25,144 p=4264 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-29 13:14:26,050 p=4264 u=admin n=ansible | fatal: [macbook.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@macbook.s1210.lan: Permission denied (publickey,gssapi-with-mic,keyboard-interactive).'
+  unreachable: true
+2026-01-29 13:14:26,050 p=4264 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-29 13:14:26,051 p=4264 u=admin n=ansible | macbook.s1210.lan          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-29 14:10:20,670 p=4746 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-29 14:10:20,675 p=4746 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-29 14:10:21,477 p=4746 u=admin n=ansible | fatal: [macbook.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@macbook.s1210.lan: Permission denied (publickey,gssapi-with-mic,keyboard-interactive).'
+  unreachable: true
+2026-01-29 14:10:21,477 p=4746 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-29 14:10:21,477 p=4746 u=admin n=ansible | macbook.s1210.lan          : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 13:52:32,007 p=8904 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-30 13:52:32,013 p=8904 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-30 13:52:32,555 p=8904 u=admin n=ansible | fatal: [s1210-2-r-06.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@s1210-2-r-06.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-01-30 13:52:32,555 p=8904 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-30 13:52:32,556 p=8904 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:27:08,722 p=9467 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-30 14:27:08,728 p=9467 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-30 14:27:09,577 p=9467 u=admin n=ansible | fatal: [s1210-2-r-01.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@s1210-2-r-01.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-01-30 14:27:09,839 p=9467 u=admin n=ansible | fatal: [s1210-2-r-06.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@s1210-2-r-06.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-01-30 14:27:11,963 p=9467 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:27:11,963 p=9467 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:27:12,065 p=9467 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:27:12,066 p=9467 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:27:12,102 p=9467 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:27:12,102 p=9467 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:27:12,225 p=9467 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:27:12,225 p=9467 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:27:12,305 p=9467 u=admin n=ansible | TASK [Add Veyon repository] ********************************************************************************************************************************************************************************************************
+2026-01-30 14:27:12,693 p=9467 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:27:12,702 p=9467 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:27:12,711 p=9467 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:27:12,716 p=9467 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:27:12,721 p=9467 u=admin n=ansible | TASK [Install Veyon] ***************************************************************************************************************************************************************************************************************
+2026-01-30 14:27:13,133 p=9467 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:27:13,134 p=9467 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:27:13,150 p=9467 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:27:13,158 p=9467 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:27:13,166 p=9467 u=admin n=ansible | TASK [Start Veyon service] *********************************************************************************************************************************************************************************************************
+2026-01-30 14:27:13,877 p=9467 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:27:13,911 p=9467 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:27:15,920 p=9467 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:27:17,942 p=9467 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:27:18,007 p=9467 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-30 14:27:18,008 p=9467 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:27:18,008 p=9467 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:27:18,008 p=9467 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:27:18,008 p=9467 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:27:18,008 p=9467 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:27:18,009 p=9467 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:38:31,145 p=9949 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-30 14:38:31,151 p=9949 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-30 14:38:33,633 p=9949 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:38:33,633 p=9949 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:38:33,717 p=9949 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:38:33,717 p=9949 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:38:33,719 p=9949 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:38:33,719 p=9949 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:38:33,760 p=9949 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:38:33,761 p=9949 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:38:33,984 p=9949 u=admin n=ansible | fatal: [s1210-2-r-06.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@s1210-2-r-06.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-01-30 14:38:34,317 p=9949 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:38:34,317 p=9949 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:38:34,362 p=9949 u=admin n=ansible | TASK [Add Veyon repository] ********************************************************************************************************************************************************************************************************
+2026-01-30 14:38:34,787 p=9949 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:38:34,794 p=9949 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:38:34,810 p=9949 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:38:34,811 p=9949 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:38:34,812 p=9949 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:38:34,818 p=9949 u=admin n=ansible | TASK [Install Veyon] ***************************************************************************************************************************************************************************************************************
+2026-01-30 14:38:35,268 p=9949 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:38:35,275 p=9949 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:38:35,279 p=9949 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:38:35,285 p=9949 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:38:35,293 p=9949 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:38:35,298 p=9949 u=admin n=ansible | TASK [Start Veyon service] *********************************************************************************************************************************************************************************************************
+2026-01-30 14:38:35,936 p=9949 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:38:35,951 p=9949 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:38:35,978 p=9949 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:38:35,978 p=9949 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:38:37,933 p=9949 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:38:38,028 p=9949 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:46:16,290 p=10258 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-30 14:46:16,295 p=10258 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-30 14:46:18,778 p=10258 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:46:18,778 p=10258 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:46:18,806 p=10258 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:46:18,806 p=10258 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:46:18,843 p=10258 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:46:18,844 p=10258 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:46:20,788 p=10258 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:46:20,788 p=10258 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:46:20,861 p=10258 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:46:20,861 p=10258 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:46:22,529 p=10258 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-06.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 14:46:22,530 p=10258 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-01-30 14:46:22,590 p=10258 u=admin n=ansible | TASK [Add Veyon repository] ********************************************************************************************************************************************************************************************************
+2026-01-30 14:46:22,981 p=10258 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:46:22,989 p=10258 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:46:23,044 p=10258 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:46:23,059 p=10258 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:46:23,069 p=10258 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:46:23,163 p=10258 u=admin n=ansible | changed: [s1210-2-r-06.s1210.lan]
+2026-01-30 14:46:23,172 p=10258 u=admin n=ansible | TASK [Install Veyon] ***************************************************************************************************************************************************************************************************************
+2026-01-30 14:46:23,642 p=10258 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:46:23,644 p=10258 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:46:23,648 p=10258 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:46:23,664 p=10258 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:46:23,692 p=10258 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:47:06,603 p=10258 u=admin n=ansible | changed: [s1210-2-r-06.s1210.lan]
+2026-01-30 14:47:06,608 p=10258 u=admin n=ansible | TASK [Start Veyon service] *********************************************************************************************************************************************************************************************************
+2026-01-30 14:47:07,409 p=10258 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 14:47:07,414 p=10258 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 14:47:07,415 p=10258 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 14:47:07,415 p=10258 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 14:47:07,416 p=10258 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 14:47:07,988 p=10258 u=admin n=ansible | changed: [s1210-2-r-06.s1210.lan]
+2026-01-30 14:47:08,081 p=10258 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-30 14:47:08,081 p=10258 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:47:08,081 p=10258 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:47:08,081 p=10258 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:47:08,082 p=10258 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:47:08,082 p=10258 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 14:47:08,082 p=10258 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 15:07:41,385 p=10719 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************************************************************************************
+2026-01-30 15:07:41,390 p=10719 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-01-30 15:07:44,081 p=10719 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 15:07:44,081 p=10719 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 15:07:44,091 p=10719 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 15:07:44,091 p=10719 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 15:07:44,094 p=10719 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 15:07:44,094 p=10719 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 15:07:44,107 p=10719 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 15:07:44,107 p=10719 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 15:07:45,981 p=10719 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 15:07:45,981 p=10719 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 15:07:46,302 p=10719 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-06.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-01-30 15:07:46,302 p=10719 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-01-30 15:07:46,356 p=10719 u=admin n=ansible | TASK [Add Veyon repository] ********************************************************************************************************************************************************************************************************
+2026-01-30 15:07:46,800 p=10719 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 15:07:46,807 p=10719 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 15:07:46,813 p=10719 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 15:07:46,813 p=10719 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 15:07:46,837 p=10719 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 15:07:46,983 p=10719 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-01-30 15:07:46,990 p=10719 u=admin n=ansible | TASK [Install Veyon] ***************************************************************************************************************************************************************************************************************
+2026-01-30 15:07:47,345 p=10719 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 15:07:47,374 p=10719 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 15:07:47,403 p=10719 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 15:07:47,411 p=10719 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 15:07:47,417 p=10719 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 15:07:47,541 p=10719 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-01-30 15:07:47,549 p=10719 u=admin n=ansible | TASK [Start Veyon service] *********************************************************************************************************************************************************************************************************
+2026-01-30 15:07:48,267 p=10719 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-01-30 15:07:48,267 p=10719 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-01-30 15:07:48,268 p=10719 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-01-30 15:07:48,271 p=10719 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-01-30 15:07:48,289 p=10719 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-01-30 15:07:48,585 p=10719 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-01-30 15:07:48,702 p=10719 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-01-30 15:07:48,702 p=10719 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 15:07:48,703 p=10719 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 15:07:48,703 p=10719 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 15:07:48,703 p=10719 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 15:07:48,703 p=10719 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-01-30 15:07:48,703 p=10719 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-04 14:59:52,716 p=33913 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 14:59:52,721 p=33913 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 14:59:53,401 p=33913 u=admin n=ansible | fatal: [mac.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac.s1210.lan: Permission denied (publickey,password,keyboard-interactive).'
+  unreachable: true
+2026-02-04 14:59:53,402 p=33913 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 14:59:53,402 p=33913 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-04 15:01:42,100 p=33994 u=admin n=ansible | mac.s1210.lan | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection closed by UNKNOWN port 65535",
+    "unreachable": true
+}
+2026-02-04 15:02:12,115 p=34065 u=admin n=ansible | mac.s1210.lan | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection closed by UNKNOWN port 65535",
+    "unreachable": true
+}
+2026-02-04 15:02:20,178 p=34085 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 15:02:20,183 p=34085 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 15:02:23,525 p=34085 u=admin n=ansible | fatal: [mac.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: Connection closed by UNKNOWN port 65535'
+  unreachable: true
+2026-02-04 15:02:23,526 p=34085 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 15:02:23,527 p=34085 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-04 15:18:01,700 p=34336 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 15:18:01,706 p=34336 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 15:18:02,874 p=34336 u=admin n=ansible | fatal: [mac.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-02-04 15:18:02,875 p=34336 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 15:18:02,875 p=34336 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-04 15:25:55,842 p=34530 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 15:25:55,848 p=34530 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 15:25:56,601 p=34530 u=admin n=ansible | fatal: [mac.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-02-04 15:25:56,602 p=34530 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 15:25:56,602 p=34530 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-04 15:31:35,732 p=34649 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 15:31:35,737 p=34649 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 15:31:37,013 p=34649 u=admin n=ansible | fatal: [mac.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-02-04 15:31:37,014 p=34649 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 15:31:37,014 p=34649 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-04 15:48:42,424 p=35036 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 15:48:42,430 p=35036 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 15:48:44,706 p=35036 u=admin n=ansible | fatal: [mac.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-04 15:48:44,707 p=35036 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 15:48:44,708 p=35036 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-04 16:40:52,451 p=35858 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-04 16:40:52,456 p=35858 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-04 16:41:00,500 p=35858 u=admin n=ansible | fatal: [mac.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-04 16:41:00,501 p=35858 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-04 16:41:00,501 p=35858 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 11:16:00,829 p=44229 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-06 11:16:00,834 p=44229 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-06 11:16:09,090 p=44229 u=admin n=ansible | fatal: [mac.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 11:16:09,091 p=44229 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-06 11:16:09,091 p=44229 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 11:34:25,371 p=44677 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-06 11:34:25,377 p=44677 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-06 11:34:31,513 p=44677 u=admin n=ansible | fatal: [mac.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 11:34:31,514 p=44677 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-06 11:34:31,514 p=44677 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 11:40:10,625 p=44967 u=admin n=ansible | PLAY [Install Veyon (simple)] ************************************************************************************************************************
+2026-02-06 11:40:10,631 p=44967 u=admin n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2026-02-06 11:40:11,355 p=44967 u=admin n=ansible | fatal: [mac.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 11:40:11,357 p=44967 u=admin n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2026-02-06 11:40:11,357 p=44967 u=admin n=ansible | mac.s1210.lan              : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 12:47:44,620 p=3828 u=admin n=ansible | PLAY [Install Veyon (simple)] ******************************************************************************************************************************
+2026-02-06 12:47:44,651 p=3828 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************
+2026-02-06 12:47:53,633 p=3828 u=admin n=ansible | [WARNING]: Platform linux on host mac.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python
+interpreter could change the meaning of that path. See https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more
+information.
+
+2026-02-06 12:47:53,633 p=3828 u=admin n=ansible | ok: [mac.s1210.lan]
+2026-02-06 12:47:53,643 p=3828 u=admin n=ansible | TASK [Add Veyon repository] ********************************************************************************************************************************
+2026-02-06 12:47:54,854 p=3828 u=admin n=ansible | changed: [mac.s1210.lan]
+2026-02-06 12:47:54,860 p=3828 u=admin n=ansible | TASK [Install Veyon] ***************************************************************************************************************************************
+2026-02-06 12:49:18,438 p=3828 u=admin n=ansible | changed: [mac.s1210.lan]
+2026-02-06 12:49:18,477 p=3828 u=admin n=ansible | TASK [Start Veyon service] *********************************************************************************************************************************
+2026-02-06 12:49:22,154 p=3828 u=admin n=ansible | changed: [mac.s1210.lan]
+2026-02-06 12:49:22,171 p=3828 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************
+2026-02-06 12:49:22,172 p=3828 u=admin n=ansible | mac.s1210.lan              : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-06 14:29:33,354 p=4296 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 14:29:33,360 p=4296 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 14:29:36,706 p=4296 u=admin n=ansible | fatal: [mac1.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 14:29:36,707 p=4296 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 14:29:36,707 p=4296 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 14:29:48,991 p=4331 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 14:29:48,997 p=4331 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 14:29:49,565 p=4331 u=admin n=ansible | fatal: [mac1.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 14:29:49,566 p=4331 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 14:29:49,566 p=4331 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 14:30:53,051 p=4367 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 14:30:53,057 p=4367 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 14:30:53,669 p=4367 u=admin n=ansible | fatal: [mac1.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 14:30:53,669 p=4367 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 14:30:53,669 p=4367 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 14:33:28,702 p=4407 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 14:33:28,707 p=4407 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 14:33:29,624 p=4407 u=admin n=ansible | fatal: [mac1.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac1.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-02-06 14:33:29,625 p=4407 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 14:33:29,625 p=4407 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-06 14:33:54,507 p=4447 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 14:33:54,513 p=4447 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 14:34:00,103 p=4447 u=admin n=ansible | [WARNING]: Platform linux on host mac1.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-06 14:34:00,103 p=4447 u=admin n=ansible | ok: [mac1.s1210.lan]
+2026-02-06 14:34:00,115 p=4447 u=admin n=ansible | TASK [Add Veyon repository] ****************************************************************************************************************************************************************************************************************
+2026-02-06 14:34:01,073 p=4447 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-06 14:34:01,077 p=4447 u=admin n=ansible | TASK [Install Veyon] ***********************************************************************************************************************************************************************************************************************
+2026-02-06 14:34:54,634 p=4447 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-06 14:34:54,639 p=4447 u=admin n=ansible | TASK [Start Veyon service] *****************************************************************************************************************************************************************************************************************
+2026-02-06 14:34:56,595 p=4447 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-06 14:34:56,612 p=4447 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 14:34:56,612 p=4447 u=admin n=ansible | mac1.s1210.lan             : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-06 15:12:11,416 p=4634 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 15:12:11,421 p=4634 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 15:12:12,587 p=4634 u=admin n=ansible | fatal: [mac1.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac1.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-02-06 15:12:12,588 p=4634 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 15:12:12,588 p=4634 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-06 15:12:32,453 p=4669 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 15:12:32,459 p=4669 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 15:12:35,355 p=4669 u=admin n=ansible | fatal: [mac1.s1210.lan]: FAILED! => 
+  msg: Missing sudo password
+2026-02-06 15:12:35,356 p=4669 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 15:12:35,356 p=4669 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-06 15:16:31,633 p=4714 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 15:16:31,639 p=4714 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 15:16:32,745 p=4714 u=admin n=ansible | fatal: [mac1.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac1.s1210.lan: Permission denied (publickey,gssapi-with-mic,password,keyboard-interactive).'
+  unreachable: true
+2026-02-06 15:16:32,745 p=4714 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 15:16:32,746 p=4714 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-06 15:16:44,320 p=4752 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-06 15:16:44,325 p=4752 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-06 15:16:49,242 p=4752 u=admin n=ansible | [WARNING]: Platform linux on host mac1.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-06 15:16:49,242 p=4752 u=admin n=ansible | ok: [mac1.s1210.lan]
+2026-02-06 15:16:49,253 p=4752 u=admin n=ansible | TASK [Add Veyon repository] ****************************************************************************************************************************************************************************************************************
+2026-02-06 15:16:49,876 p=4752 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-06 15:16:49,881 p=4752 u=admin n=ansible | TASK [Install Veyon] ***********************************************************************************************************************************************************************************************************************
+2026-02-06 15:17:43,022 p=4752 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-06 15:17:43,027 p=4752 u=admin n=ansible | TASK [Start Veyon service] *****************************************************************************************************************************************************************************************************************
+2026-02-06 15:17:44,843 p=4752 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-06 15:17:44,860 p=4752 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-06 15:17:44,861 p=4752 u=admin n=ansible | mac1.s1210.lan             : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 10:54:57,649 p=15696 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-09 10:54:57,654 p=15696 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-09 10:54:58,239 p=15696 u=admin n=ansible | fatal: [mac1.s1210.lan]: UNREACHABLE! => changed=false 
+  msg: 'Failed to connect to the host via ssh: admin@mac1.s1210.lan: Permission denied (publickey,gssapi-with-mic,password).'
+  unreachable: true
+2026-02-09 10:54:58,240 p=15696 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-09 10:54:58,240 p=15696 u=admin n=ansible | mac1.s1210.lan             : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 10:55:12,587 p=15739 u=admin n=ansible | PLAY [Install Veyon (simple)] **************************************************************************************************************************************************************************************************************
+2026-02-09 10:55:12,593 p=15739 u=admin n=ansible | TASK [Gathering Facts] *********************************************************************************************************************************************************************************************************************
+2026-02-09 10:55:19,216 p=15739 u=admin n=ansible | [WARNING]: Platform linux on host mac1.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 10:55:19,217 p=15739 u=admin n=ansible | ok: [mac1.s1210.lan]
+2026-02-09 10:55:19,227 p=15739 u=admin n=ansible | TASK [Add Veyon repository] ****************************************************************************************************************************************************************************************************************
+2026-02-09 10:55:20,565 p=15739 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-09 10:55:20,570 p=15739 u=admin n=ansible | TASK [Install Veyon] ***********************************************************************************************************************************************************************************************************************
+2026-02-09 10:56:13,638 p=15739 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-09 10:56:13,643 p=15739 u=admin n=ansible | TASK [Start Veyon service] *****************************************************************************************************************************************************************************************************************
+2026-02-09 10:56:15,676 p=15739 u=admin n=ansible | changed: [mac1.s1210.lan]
+2026-02-09 10:56:15,696 p=15739 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-09 10:56:15,696 p=15739 u=admin n=ansible | mac1.s1210.lan             : ok=4    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:20:26,618 p=16279 u=admin n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/home/admin/ansible_rosa/playbooks/update.yml': line 2, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+yaml
+---
+^ here
+
+2026-02-09 12:21:07,695 p=16333 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: linux_clients
+
+2026-02-09 12:21:07,695 p=16333 u=admin n=ansible | PLAY [Простое обновление системы через dnf update -y] **************************************************************************************************************************************************************************************
+2026-02-09 12:21:07,696 p=16333 u=admin n=ansible | skipping: no hosts matched
+2026-02-09 12:21:07,696 p=16333 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-09 12:21:40,666 p=16365 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: linux_clients
+
+2026-02-09 12:21:40,667 p=16365 u=admin n=ansible | PLAY [Простое обновление системы через dnf update -y] **************************************************************************************************************************************************************************************
+2026-02-09 12:21:40,667 p=16365 u=admin n=ansible | skipping: no hosts matched
+2026-02-09 12:21:40,667 p=16365 u=admin n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2026-02-09 12:35:11,984 p=3075 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: linux_clients
+
+2026-02-09 12:35:12,003 p=3075 u=admin n=ansible | PLAY [Простое обновление системы через dnf update -y] ******************************************************************************************************************************************************************************
+2026-02-09 12:35:12,004 p=3075 u=admin n=ansible | skipping: no hosts matched
+2026-02-09 12:35:12,004 p=3075 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:39:39,266 p=2957 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: linux_clients
+
+2026-02-09 12:39:39,304 p=2957 u=admin n=ansible | PLAY [Простое обновление системы через dnf update -y] ******************************************************************************************************************************************************************************
+2026-02-09 12:39:39,304 p=2957 u=admin n=ansible | skipping: no hosts matched
+2026-02-09 12:39:39,304 p=2957 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:41:55,225 p=3120 u=admin n=ansible | PLAY [Обновление систем через dnf update -y] ***************************************************************************************************************************************************************************************
+2026-02-09 12:41:55,379 p=3120 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-02-09 12:41:58,624 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:41:58,624 p=3120 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-02-09 12:41:58,682 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:41:58,683 p=3120 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-02-09 12:41:58,750 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:41:58,750 p=3120 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-02-09 12:41:58,917 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:41:58,917 p=3120 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-02-09 12:42:00,155 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:42:00,155 p=3120 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-02-09 12:42:01,373 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-06.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:42:01,373 p=3120 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-02-09 12:42:01,539 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-23-15.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:42:01,539 p=3120 u=admin n=ansible | ok: [s1210-2-23-15.s1210.lan]
+2026-02-09 12:42:01,676 p=3120 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-23-17.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:42:01,676 p=3120 u=admin n=ansible | ok: [s1210-2-23-17.s1210.lan]
+2026-02-09 12:42:01,809 p=3120 u=admin n=ansible | TASK [Обновление всех пакетов (dnf update -y)] *************************************************************************************************************************************************************************************
+2026-02-09 12:42:02,166 p=3120 u=admin n=ansible | fatal: [s1210-2-r-02.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:02,181 p=3120 u=admin n=ansible | fatal: [s1210-2-r-05.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:02,220 p=3120 u=admin n=ansible | fatal: [s1210-2-r-04.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:02,395 p=3120 u=admin n=ansible | fatal: [s1210-2-23-15.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:02,402 p=3120 u=admin n=ansible | fatal: [s1210-2-r-06.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:02,406 p=3120 u=admin n=ansible | fatal: [s1210-2-r-03.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:02,431 p=3120 u=admin n=ansible | fatal: [s1210-2-23-17.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:04,203 p=3120 u=admin n=ansible | fatal: [s1210-2-r-01.s1210.lan]: FAILED! => changed=false 
+  changed_when_result: 'The conditional check ''''Nothing to do'' not in update_result.stdout'' failed. The error was: error while evaluating conditional (''Nothing to do'' not in update_result.stdout): ''dict object'' has no attribute ''stdout'''
+  msg: 'Unsupported parameters for (ansible.legacy.command) module: warn. Supported parameters include: _raw_params, _uses_shell, argv, chdir, creates, executable, expand_argument_vars, removes, stdin, stdin_add_newline, strip_empty_ends.'
+2026-02-09 12:42:04,204 p=3120 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-23-15.s1210.lan    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-23-17.s1210.lan    : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,205 p=3120 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:42:04,206 p=3120 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:43:17,067 p=3342 u=admin n=ansible | PLAY [Простое обновление систем] ***************************************************************************************************************************************************************************************************
+2026-02-09 12:43:17,073 p=3342 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-02-09 12:43:19,566 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:19,566 p=3342 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan]
+2026-02-09 12:43:19,668 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:19,670 p=3342 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan]
+2026-02-09 12:43:19,824 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:19,825 p=3342 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan]
+2026-02-09 12:43:21,753 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:21,753 p=3342 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan]
+2026-02-09 12:43:21,850 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:21,853 p=3342 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan]
+2026-02-09 12:43:21,866 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-06.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:21,867 p=3342 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan]
+2026-02-09 12:43:22,018 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-23-15.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:22,019 p=3342 u=admin n=ansible | ok: [s1210-2-23-15.s1210.lan]
+2026-02-09 12:43:22,072 p=3342 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-23-17.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:43:22,074 p=3342 u=admin n=ansible | ok: [s1210-2-23-17.s1210.lan]
+2026-02-09 12:43:22,209 p=3342 u=admin n=ansible | TASK [Выполнить dnf update -y] *****************************************************************************************************************************************************************************************************
+2026-02-09 12:46:10,698 p=3342 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-02-09 12:46:12,181 p=3342 u=admin n=ansible | changed: [s1210-2-r-01.s1210.lan]
+2026-02-09 12:46:12,605 p=3342 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-02-09 12:46:12,666 p=3342 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-02-09 12:46:13,198 p=3342 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-02-09 12:46:13,461 p=3342 u=admin n=ansible | changed: [s1210-2-23-15.s1210.lan]
+2026-02-09 12:47:13,825 p=3342 u=admin n=ansible | changed: [s1210-2-23-17.s1210.lan]
+2026-02-09 12:47:52,489 p=3342 u=admin n=ansible | changed: [s1210-2-r-06.s1210.lan]
+2026-02-09 12:47:52,650 p=3342 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:47:52,650 p=3342 u=admin n=ansible | s1210-2-23-15.s1210.lan    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,650 p=3342 u=admin n=ansible | s1210-2-23-17.s1210.lan    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,651 p=3342 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,651 p=3342 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,651 p=3342 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,651 p=3342 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,651 p=3342 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:47:52,651 p=3342 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:56:05,306 p=3676 u=admin n=ansible | [WARNING]:  * Failed to parse /home/admin/ansible_rosa/inventory/working_hosts.ini with ini plugin: /home/admin/ansible_rosa/inventory/working_hosts.ini:2: Expected key=value host variable assignment, got: /usr/bin/python3.8
+
+2026-02-09 12:56:05,306 p=3676 u=admin n=ansible | [WARNING]: Unable to parse /home/admin/ansible_rosa/inventory/working_hosts.ini as an inventory source
+
+2026-02-09 12:56:05,306 p=3676 u=admin n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-02-09 12:56:05,309 p=3676 u=admin n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-02-09 12:56:05,425 p=3676 u=admin n=ansible | PLAY [Немедленное выключение] ******************************************************************************************************************************************************************************************************
+2026-02-09 12:56:05,425 p=3676 u=admin n=ansible | skipping: no hosts matched
+2026-02-09 12:56:05,425 p=3676 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:58:00,159 p=3723 u=admin n=ansible | [WARNING]:  * Failed to parse /home/admin/ansible_rosa/inventory/working_hosts.ini with ini plugin: /home/admin/ansible_rosa/inventory/working_hosts.ini:2: Expected key=value host variable assignment, got: /usr/bin/python3.8
+
+2026-02-09 12:58:00,159 p=3723 u=admin n=ansible | [WARNING]: Unable to parse /home/admin/ansible_rosa/inventory/working_hosts.ini as an inventory source
+
+2026-02-09 12:58:00,159 p=3723 u=admin n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-02-09 12:58:00,162 p=3723 u=admin n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-02-09 12:58:00,287 p=3723 u=admin n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: working_hosts
+
+2026-02-09 12:58:00,287 p=3723 u=admin n=ansible | PLAY [Выключение компьютеров] ******************************************************************************************************************************************************************************************************
+2026-02-09 12:58:00,287 p=3723 u=admin n=ansible | skipping: no hosts matched
+2026-02-09 12:58:00,287 p=3723 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:59:10,254 p=3822 u=admin n=ansible | PLAY [Выключение компьютеров] ******************************************************************************************************************************************************************************************************
+2026-02-09 12:59:10,266 p=3822 u=admin n=ansible | TASK [Выключить компьютер] *********************************************************************************************************************************************************************************************************
+2026-02-09 12:59:11,471 p=3822 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-04.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:59:11,472 p=3822 u=admin n=ansible | changed: [s1210-2-r-04.s1210.lan]
+2026-02-09 12:59:11,493 p=3822 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-02.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:59:11,493 p=3822 u=admin n=ansible | changed: [s1210-2-r-02.s1210.lan]
+2026-02-09 12:59:11,501 p=3822 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-01.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:59:11,501 p=3822 u=admin n=ansible | changed: [s1210-2-r-01.s1210.lan]
+2026-02-09 12:59:11,503 p=3822 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-05.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:59:11,503 p=3822 u=admin n=ansible | changed: [s1210-2-r-05.s1210.lan]
+2026-02-09 12:59:11,548 p=3822 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-03.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:59:11,548 p=3822 u=admin n=ansible | changed: [s1210-2-r-03.s1210.lan]
+2026-02-09 12:59:12,420 p=3822 u=admin n=ansible | [WARNING]: Platform linux on host s1210-2-r-06.s1210.lan is using the discovered Python interpreter at /usr/bin/python3.8, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible-core/2.17/reference_appendices/interpreter_discovery.html for more information.
+
+2026-02-09 12:59:12,420 p=3822 u=admin n=ansible | changed: [s1210-2-r-06.s1210.lan]
+2026-02-09 12:59:12,460 p=3822 u=admin n=ansible | TASK [Сообщение о выключении] ******************************************************************************************************************************************************************************************************
+2026-02-09 12:59:12,508 p=3822 u=admin n=ansible | ok: [s1210-2-r-01.s1210.lan -> localhost] => 
+  msg: Компьютер s1210-2-r-01.s1210.lan выключается...
+2026-02-09 12:59:12,553 p=3822 u=admin n=ansible | ok: [s1210-2-r-02.s1210.lan -> localhost] => 
+  msg: Компьютер s1210-2-r-02.s1210.lan выключается...
+2026-02-09 12:59:12,593 p=3822 u=admin n=ansible | ok: [s1210-2-r-04.s1210.lan -> localhost] => 
+  msg: Компьютер s1210-2-r-04.s1210.lan выключается...
+2026-02-09 12:59:12,595 p=3822 u=admin n=ansible | ok: [s1210-2-r-03.s1210.lan -> localhost] => 
+  msg: Компьютер s1210-2-r-03.s1210.lan выключается...
+2026-02-09 12:59:12,608 p=3822 u=admin n=ansible | ok: [s1210-2-r-05.s1210.lan -> localhost] => 
+  msg: Компьютер s1210-2-r-05.s1210.lan выключается...
+2026-02-09 12:59:12,618 p=3822 u=admin n=ansible | ok: [s1210-2-r-06.s1210.lan -> localhost] => 
+  msg: Компьютер s1210-2-r-06.s1210.lan выключается...
+2026-02-09 12:59:12,647 p=3822 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 12:59:12,647 p=3822 u=admin n=ansible | s1210-2-r-01.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:59:12,648 p=3822 u=admin n=ansible | s1210-2-r-02.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:59:12,649 p=3822 u=admin n=ansible | s1210-2-r-03.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:59:12,649 p=3822 u=admin n=ansible | s1210-2-r-04.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:59:12,649 p=3822 u=admin n=ansible | s1210-2-r-05.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 12:59:12,649 p=3822 u=admin n=ansible | s1210-2-r-06.s1210.lan     : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 13:03:36,463 p=4129 u=admin n=ansible | PLAY [Простое обновление систем] ***************************************************************************************************************************************************************************************************
+2026-02-09 13:03:36,469 p=4129 u=admin n=ansible | TASK [Gathering Facts] *************************************************************************************************************************************************************************************************************
+2026-02-09 13:03:38,766 p=4129 u=admin n=ansible | ok: [s1210-2-23-15.s1210.lan]
+2026-02-09 13:03:38,973 p=4129 u=admin n=ansible | ok: [s1210-2-23-17.s1210.lan]
+2026-02-09 13:03:38,995 p=4129 u=admin n=ansible | TASK [Выполнить dnf update -y] *****************************************************************************************************************************************************************************************************
+2026-02-09 13:03:40,279 p=4129 u=admin n=ansible | changed: [s1210-2-23-15.s1210.lan]
+2026-02-09 13:03:40,883 p=4129 u=admin n=ansible | changed: [s1210-2-23-17.s1210.lan]
+2026-02-09 13:03:40,915 p=4129 u=admin n=ansible | PLAY RECAP *************************************************************************************************************************************************************************************************************************
+2026-02-09 13:03:40,915 p=4129 u=admin n=ansible | s1210-2-23-15.s1210.lan    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2026-02-09 13:03:40,915 p=4129 u=admin n=ansible | s1210-2-23-17.s1210.lan    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
