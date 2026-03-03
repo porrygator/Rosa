@@ -1,0 +1,11 @@
+---
+- name: Install Veyon from repository
+  hosts: "{{ target_host | default('all') }}"
+  become: yes
+  
+  tasks:
+    - name: Ensure Veyon is installed
+      dnf:
+        name: veyon
+        state: present
+        update_cache: yes
