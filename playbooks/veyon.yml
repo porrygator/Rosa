@@ -1,36 +1,32 @@
 ---
-- name: Install Veyon (simple)
+- name: Install Veyon from ROSA repositories
   hosts: working_hosts
   become: yes
 
   tasks:
-    - name: Add Veyon repository
-      # На ROSA лучше использовать dnf_repository, но yum_repository тоже пойдет.
-      # Важно: переменная $basearch иногда не подхватывается корректно,
-      # можно попробовать x86_64, если все машины одинаковые.
-      yum_repository:
-        name: veyon
-        description: "Veyon Repository"
-        baseurl: https://download.veyon.io/rpm/stable/x86_64
-        gpgcheck: yes
-        gpgkey: https://download.veyon.io/keys/veyon.asc
-        enabled: yes
+    - name: Clean dnf metadata
+      # Иногда база dnf "тупит", лучше её обновить перед массовой установкой
+      shell: dnf clean all
 
-    - name: Ensure Veyon is installed
-      # Используем явный dnf4, чтобы избежать ошибки "Could not detect dnf version"
-      dnf:
-        name: veyon
-        state: present
-        use_backend: dnf4
+    - name: Install Veyon using dnf
+      # Используем shell, потому что модуль dnf на ROSA конфликтует с urpmi
+      shell: dnf install -y veyon
+      register: veyon_install
+      changed_when: "'Installing' in veyon_install.stdout or 'Установка' in veyon_install.stdout"
 
-    - name: Check if Veyon service file exists
-      stat:
-        path: /usr/lib/systemd/system/veyon.service
-      register: veyon_service_file
-
-    - name: Start Veyon service
-      service:
+    - name: Start and enable Veyon service
+      systemd:
         name: veyon
         state: started
         enabled: yes
-      when: veyon_service_file.stat.exists
+      # Игнорируем, если GUI еще не настроен и сервис не хочет стартовать сразу
+      ignore_errors: yes
+
+    - name: Check Veyon version
+      shell: veyon-cli -v
+      register: veyon_ver
+      changed_when: false
+
+    - name: Show installed version
+      debug:
+        msg: "Veyon version installed: {{ veyon_ver.stdout }}"
