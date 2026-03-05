@@ -1,4 +1,3 @@
-# ~/ansible_rosa/playbooks/veyon_simple.yml
 ---
 - name: Install Veyon (simple)
   hosts: working_hosts
@@ -6,21 +5,32 @@
 
   tasks:
     - name: Add Veyon repository
+      # На ROSA лучше использовать dnf_repository, но yum_repository тоже пойдет.
+      # Важно: переменная $basearch иногда не подхватывается корректно,
+      # можно попробовать x86_64, если все машины одинаковые.
       yum_repository:
         name: veyon
         description: "Veyon Repository"
-        baseurl: https://download.veyon.io/rpm/stable/$basearch
+        baseurl: https://download.veyon.io/rpm/stable/x86_64
         gpgcheck: yes
         gpgkey: https://download.veyon.io/keys/veyon.asc
         enabled: yes
 
-    - name: Install Veyon
-      package:
+    - name: Ensure Veyon is installed
+      # Используем явный dnf4, чтобы избежать ошибки "Could not detect dnf version"
+      dnf:
         name: veyon
         state: present
+        use_backend: dnf4
+
+    - name: Check if Veyon service file exists
+      stat:
+        path: /usr/lib/systemd/system/veyon.service
+      register: veyon_service_file
 
     - name: Start Veyon service
       service:
-        name: veyon.service
+        name: veyon
         state: started
         enabled: yes
+      when: veyon_service_file.stat.exists
